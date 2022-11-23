@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+}
+
+
+.perfume-img-desktop {
+  visibility: hidden;
+}
+
+.background-container {
+  width: 375px;
+  height: 812px;
+  background-color: hsl(30, 38%, 92%);
+  position: relative;
+}
+
+.content-container {
+  width: 335px;
+  height: 720px;
+  background-color: hsl(0, 0%, 100%);
+  position: absolute;
+  margin: 0;
+  left: 20px;
+  top: 50px;
+  border-radius: 15px;
+
+}
+
+.image-container {
+  position: absolute;
+  width: 335px;
+}
+
+.perfume-img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+}
+img {
+    max-width:100%;
+    height:auto;
+}
+
+.text-container {
+  position: relative;
+  margin-top: 250px;
+}
+
+p {
+  color: grey;
+  font-size: .9rem;
+  margin-right: 12px;
+  margin-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  line-height: 1.8rem;
+}
+
+
+.perfume-text {
+  letter-spacing: 5px;
+  position: relative;
+  top: 20px;
+
+}
+
+h2 {
+margin-left: 20px;
+margin-bottom: 0;
+font-family: 'Fraunces', serif;
+font-weight: 700;
+font-size: 2rem;
+}
+
+
+.add-to-cart-container {
+  text-align: center;
+  position: absolute;
+  width: 85%;
+  height: 8%;
+  margin-left: 20px;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 10px;
+}
+
+.add-to-cart-container:hover{
+  background-color: hsl(212, 21%, 14%);
+}
+
+/* .dark-cyan {
+background-color: hsl(212, 21%, 14%);
+}
+
+.normal-cyan {
+  background-color: hsl(158, 36%, 37%);
+} */
+
+.add-text {
+  font-weight: 550;
+  position: relative;
+  bottom: 8px;
+  margin: 0;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.price-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.price-text {
+  font-family: 'Fraunces', serif;
+  font-size: 2.3rem;
+  margin-left: 20px;
+  color: hsl(158, 36%, 37%);
+}
+.discounted-price-text {
+  margin: 32px 80px 16px 20px;
+  text-decoration: line-through;
+  font-size: 1rem;
+  top: 30px;
+}
+
+.cart-img {
+  width: 17px;
+  position: relative;
+  top: 20px;
+  left: -65px;
+}
+
+
+@media (min-width: 1440px) {
+  .background-container {
+    width: 1440px;
+    height: 900px;
+  }
+
+  .content-container {
+    width: 45%;
+    height: 55%;
+    top: 30%;
+    left: 30%;
+  }
+
+  .perfume-img-desktop {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    visibility: visible;
+    width: 100%;
+    height: 208%;
+    background-image: url("image-product-desktop.jpg");
+    object-fit: cover;
+  }
+
+  .perfume-img {
+    visibility: hidden;
+  }
+
+  .text-container {
+    position: relative;
+    margin-top: 0;
+    width: 39%;
+    left: 350px;
+  }
+  .price-text {
+    font-size: 2rem;
+    margin-left: 365px;
+    margin-top: 14px;
+  }
+  .discounted-price-text {
+    margin: 8px 80px 0 20px;
+    text-decoration: line-through;
+    font-size: .9rem;
+    margin-top: 17px;
+  }
+
+  p {
+    font-size: .8rem;
+    line-height: 1.8rem;
+  }
+
+  .add-to-cart-container {
+    text-align: center;
+    position: absolute;
+    width: 33%;
+    height: 9%;
+    margin-left: 365px;
+  }
+
+  .add-text {
+    width: 80px;
+    font-weight: 500;
+    bottom: 12px;
+    margin:  0 75px 0;
+  }
+
+  .cart-img {
+    width: 15px;
+    position: relative;
+    top: 15px;
+    left: -45px;
+  }
+
+
+
+
+
+
+}
